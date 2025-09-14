@@ -93,9 +93,9 @@ This project is configured for static generation and deployment on Netlify.
    - The build settings are already configured in `netlify.toml`
 
 2. **Build Settings (automatically configured):**
-   - **Build command:** `npm run generate`
+   - **Build command:** `rm -rf node_modules package-lock.json && npm install && npm run generate`
    - **Publish directory:** `.output/public`
-   - **Node version:** 18
+   - **Node version:** 20
 
 3. **Deploy:**
    - Click "Deploy site"
