@@ -71,7 +71,7 @@
             © {{ currentYear }} Geninvoices. All rights reserved.
           </p>
           <div class="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a>
+            <NuxtLink to="/privacy" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">Privacy Policy</NuxtLink>
             <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">Terms of Service</a>
             <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">Cookie Policy</a>
           </div>
