@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Generate professional invoices quickly and easily with Geninvoices. Streamline your billing process with our smart invoice generation platform.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }
       ]
     }
   }

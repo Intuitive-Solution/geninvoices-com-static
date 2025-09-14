@@ -51,9 +51,9 @@
 
         <!-- CTA Buttons -->
         <div class="hidden md:flex items-center space-x-4">
-          <NuxtLink to="/contact" class="btn-outline">
-            Contact
-          </NuxtLink>
+          <a href="https://apps.geninvoices.com" target="_blank" rel="noopener noreferrer" class="btn-outline">
+            Login
+          </a>
           <NuxtLink to="/pricing" class="btn-primary">
             Get Started
           </NuxtLink>
@@ -118,9 +118,9 @@
             Contact Us
           </NuxtLink>
           <div class="flex flex-col space-y-2 px-4 pt-4 border-t border-gray-200">
-            <NuxtLink to="/contact" @click="mobileMenuOpen = false" class="btn-outline text-center">
-              Contact
-            </NuxtLink>
+            <a href="https://apps.geninvocies.com" target="_blank" rel="noopener noreferrer" @click="mobileMenuOpen = false" class="btn-outline text-center">
+              Login
+            </a>
             <NuxtLink to="/pricing" @click="mobileMenuOpen = false" class="btn-primary text-center">
               Get Started
             </NuxtLink>
