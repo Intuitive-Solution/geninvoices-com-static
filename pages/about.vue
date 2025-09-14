@@ -97,50 +97,6 @@
             dedicated to making invoicing simple and efficient.
           </p>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white rounded-xl p-8 text-center shadow-sm">
-            <img 
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" 
-              alt="John Smith" 
-              class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-            />
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">John Smith</h3>
-            <p class="text-violet-700 font-medium mb-3">CEO & Founder</p>
-            <p class="text-gray-600 text-sm">
-              John has over 10 years of experience in fintech and is passionate about 
-              simplifying business processes.
-            </p>
-          </div>
-
-          <div class="bg-white rounded-xl p-8 text-center shadow-sm">
-            <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face" 
-              alt="Sarah Johnson" 
-              class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-            />
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Sarah Johnson</h3>
-            <p class="text-violet-700 font-medium mb-3">CTO</p>
-            <p class="text-gray-600 text-sm">
-              Sarah leads our engineering team and ensures our platform is secure, 
-              scalable, and always available.
-            </p>
-          </div>
-
-          <div class="bg-white rounded-xl p-8 text-center shadow-sm">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" 
-              alt="Mike Chen" 
-              class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-            />
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Mike Chen</h3>
-            <p class="text-violet-700 font-medium mb-3">Head of Design</p>
-            <p class="text-gray-600 text-sm">
-              Mike creates beautiful, intuitive experiences that make complex 
-              invoicing tasks feel simple and enjoyable.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
 
