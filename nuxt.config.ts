@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false, // Disable server-side rendering for static generation
   nitro: {
+    preset: 'static',
     prerender: {
       routes: ['/']
     }

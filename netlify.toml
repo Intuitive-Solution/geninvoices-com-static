@@ -6,11 +6,14 @@
   publish = ".output/public"
   
   # Default build command
-  command = "rm -rf node_modules package-lock.json && npm install && npm run generate"
+  command = "rm -rf node_modules package-lock.json && npm install && npm run generate && ls -la .output/public"
 
 [build.environment]
   # Node.js version
   NODE_VERSION = "20"
+  # Additional environment variables for Nuxt
+  NUXT_TELEMETRY_DISABLED = "1"
+  CI = "true"
 
 # Redirect rules for SPA routing
 [[redirects]]
